@@ -1,10 +1,10 @@
-name: Publish
+name: CI
 
 on:
   pull_request
 
 jobs:
-  publish:
+  ci:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout

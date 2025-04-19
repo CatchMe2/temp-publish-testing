@@ -49,3 +49,4 @@ jobs:
           git commit -am "chore: version bump to v$VERSION"
           git tag v$VERSION
           git push origin HEAD v$VERSION
+          echo "### ✅ Completed version bump: \`v$VERSION\`" >> $GITHUB_STEP_SUMMARY
